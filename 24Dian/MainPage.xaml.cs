@@ -43,10 +43,16 @@ namespace _24Dian
         public MainPage()
         {
             this.InitializeComponent();
-
+            Windows.Phone.UI.Input.HardwareButtons.BackPressed += HardwareButtons_BackPressed;
             this.NavigationCacheMode = NavigationCacheMode.Required;
         }
 
+        private void HardwareButtons_BackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
+        {
+            if (!e.Handled && Frame.CurrentSourcePageType.FullName == "_24Dian.MainPage")
+                Application.Current.Exit();
+
+        }
         /// <summary>
         /// Invoked when this page is about to be displayed in a Frame.
         /// </summary>

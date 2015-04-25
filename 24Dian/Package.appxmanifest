@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-  <Identity Name="31979Mukosame.134650FEACD72" Publisher="CN=A51910E1-01F8-4697-9ECA-36EDA9D77739" Version="1.1.0.2" />
+  <Identity Name="31979Mukosame.134650FEACD72" Publisher="CN=A51910E1-01F8-4697-9ECA-36EDA9D77739" Version="1.1.0.4" />
   <mp:PhoneIdentity PhoneProductId="96d9e5e2-97c8-4247-a3ad-ee215d559c7e" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>24点求解器(专业版)</DisplayName>

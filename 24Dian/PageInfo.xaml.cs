@@ -120,7 +120,7 @@ namespace _24Dian
             String FriendlyName = CurrentDeviceInfor.FriendlyName;
 
             Windows.ApplicationModel.Email.EmailMessage mail = new Windows.ApplicationModel.Email.EmailMessage();
-            mail.Subject = "[WP8]速算24点用户反馈-" + Version.Text.ToString();
+            mail.Subject = "[WP8.1]用户反馈-" + Version.Text.ToString();
             mail.Body = "\n\n\n生产厂商：" + Manufacturer + "\n手机型号：" + FriendlyName + "\nOS版本：" + OSVersion;
             mail.To.Add(new Windows.ApplicationModel.Email.EmailRecipient("mukosame@gmail.com", "Mukosame"));
             await Windows.ApplicationModel.Email.EmailManager.ShowComposeNewEmailAsync(mail);

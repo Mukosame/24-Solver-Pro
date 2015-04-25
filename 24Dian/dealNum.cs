@@ -13,7 +13,7 @@ namespace _24Dian
         {
            // System.Text.RegularExpressions.Regex rex =
         //new System.Text.RegularExpressions.Regex(@"^\d+$");
-            System.Text.RegularExpressions.Regex rex = new System.Text.RegularExpressions.Regex(@"^[0-9]\d*$"); 
+            System.Text.RegularExpressions.Regex rex = new System.Text.RegularExpressions.Regex(@"^[0-9]\d*$");
             if (rex.IsMatch(message))
             {
                 result = int.Parse(message);
@@ -26,7 +26,10 @@ namespace _24Dian
                 }
             }
             else
+            {
+                result = 0;
                 return false;
+            }
         }
 
 

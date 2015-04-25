@@ -16,20 +16,20 @@
         <!-- Output Panel -->
         <Image Margin="88,305,74,95" Source="scroll.png" />
         <StackPanel Margin="88,305,74,130" Background="Transparent">
-            <ScrollViewer Name="scrollviewer" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Height="220" Margin="0,15,0,0" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Visible">
+            <ScrollViewer Name="scrollviewer" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Height="220" Margin="0,10,0,0" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Visible">
                 <ScrollViewer.Content>
                     <TextBlock TextWrapping="Wrap" FontSize="33" Margin="10,0,10,50"
                                Text="" Name="output" Foreground="#FF0D1925" FontFamily="visitor1.ttf#Visitor TT1 BRK"/>
                 </ScrollViewer.Content>                
             </ScrollViewer>
         </StackPanel>
-        <TextBlock Margin="88,510,80,95" Text="" FontSize="33" HorizontalAlignment="Right" Name="result" Foreground="#FF0D1925" FontFamily="visitor1.ttf#Visitor TT1 BRK"/>
+        <TextBlock Text="" Margin="88,490,80,95" FontSize="33" HorizontalAlignment="Right" Name="result" Foreground="#FF0D1925" FontFamily="visitor1.ttf#Visitor TT1 BRK"/>
         <!-- Title Panel -->
         <StackPanel Grid.Row="0" Margin="0,7,0,0">
             <Image Height="40" Source="head.png" Stretch="Uniform" HorizontalAlignment="Center"/>
         </StackPanel>
 
-        <Grid Margin="65,60,50,400">
+        <Grid Margin="65,60,50,390">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -44,7 +44,7 @@
             <Image Grid.Column="1" Grid.Row="1" Source="num.png" Stretch="Uniform" Height="78"/>
         </Grid>
 
-        <Grid Margin="65,60,50,400">
+        <Grid Margin="65,60,50,390">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
